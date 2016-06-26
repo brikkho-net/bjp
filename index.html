@@ -13,9 +13,23 @@
     <link rel="stylesheet" href="css/bootstrap-image-gallery.min.css">
 
     <style media="screen">
+      @media(min-width: 992px) {
+        body {
+          padding-top: 40px;
+        }
+      }
       body {
         background-color: #222;
       }
+
+      header {
+        text-align: center;
+      }
+      .thumbnail {
+        background: none;
+        border: none;
+      }
+
       .grid-item {
           width: 204px;
           padding: 2px;
@@ -40,18 +54,22 @@
         <ol class="indicator"></ol>
     </div>
 
-    <div class="container">
+    <!-- <div class="container"> -->
       <div class="row">
-      </div>
+        <header class="col-md-2">
+          <div class="row">
+            <img src="img/logo.png" alt="Becky Jenson Photography" class="col-md-12" />
+          </div>
+          <p>
+            <a href="#">Contact</a>
+          </p>
+        </header>
 
-      <div class="row">
-        <div class="col-md-2">
-          <h1>Becky Jenson Photography</h1>
+        <div class="col-md-10">
+          <div id="links" class="center-block"></div>
         </div>
-
-        <div id="links" class="col-md-10"></div>
       </div>
-    </div>
+    <!-- </div> -->
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
