@@ -17,7 +17,7 @@ function shuffle (a) {
 $(function () {
   shuffle(window.thumbs)
 
-  if ($(window).width() < 970) {
+  if ($(window).width() < 600) {
     // Mobile view; just drop a bunch of thumbnails in
     for (var i = 0; i < window.thumbs.length; i++) {
       var thumb = window.thumbs[i]
@@ -30,6 +30,7 @@ $(function () {
     }
     return
   }
+
   // Insert images into grid
   for (var i = 0; i < window.thumbs.length; i++) {
     var thumb = window.thumbs[i]

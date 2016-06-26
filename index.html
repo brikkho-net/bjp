@@ -14,10 +14,20 @@
 
     <style media="screen">
       @media(min-width: 992px) {
-        body {
+        header {
           padding-top: 40px;
         }
       }
+      @media(max-width: 992px) {
+        header .row {
+          overflow: hidden;
+          height: 125px;
+        }
+        header .row img {
+          margin-top: -125px;
+        }
+      }
+
       body {
         background-color: #222;
       }
