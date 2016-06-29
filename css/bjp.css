@@ -1,0 +1,29 @@
+@media(min-width: 992px) {
+  header {
+    padding-top: 40px;
+  }
+
+  header .row {
+    margin-bottom: 20px;
+  }
+}
+@media(max-width: 991px) {
+  header .row {
+    overflow: hidden;
+    height: 125px;
+    margin-bottom: 5px;
+  }
+  header img {
+    margin-top: -125px;
+  }
+}
+
+body {
+  background-color: #222;
+  font-family: "Georgia", "Courier New";
+  color: #eee;
+}
+
+header {
+  text-align: center;
+}
